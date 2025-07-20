@@ -1,5 +1,5 @@
 import React from "react";
-import G_icon from "../assets/g_icon";
+import G_icon from "../assets/G_icon";
 import F_icon from "../assets/F_icon";
 import A_icon from "../assets/A_icon";
 import I_icon from "../assets/I_icon";
