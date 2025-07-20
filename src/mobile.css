@@ -31,6 +31,15 @@
     padding: 0.8em;
   }
 
+  .divider::before {
+  left: 0;
+  width: 35%;
+}
+.divider::after {
+  right: 0;
+  width: 35%;
+}
+
   .divider span {
     font-size: 11px;
     padding: 0.25em 0.8em;

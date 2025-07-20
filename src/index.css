@@ -130,7 +130,6 @@ svg{
 .divider span {
   position: relative;
   padding: 0.3em 1.2em;
-  background: rgb(255, 255, 255);
   border-radius: 50px;
   font-size: 12px;
   z-index: 2;
