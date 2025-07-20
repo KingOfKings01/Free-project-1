@@ -4,11 +4,18 @@ import F_icon from "../assets/F_icon";
 import A_icon from "../assets/A_icon";
 import I_icon from "../assets/I_icon";
 import Eye_icon from "../assets/Eye_icon";
+import leads_alpha_logo from "../assets/leads-alpha-logo.png";
 
 export default function Auth() {
   return (
     <div className="auth-page">
+
+      <div className="logo">
+        <img src={leads_alpha_logo} alt="leads_alpha_logo" />
+      </div>
       <div className="card">
+
+
         {/* SECTION 1: Social login */}
         <section>
           <div className="heading">
@@ -44,7 +51,7 @@ export default function Auth() {
             <div className="password-input">
               <input type="password" placeholder="Enter Password" required />
               {/* Optional toggle icon here */}
-              <span className="eye-icon"><Eye_icon/></span>
+              <span className="eye-icon"><Eye_icon /></span>
             </div>
 
             <div className="action-submit">
