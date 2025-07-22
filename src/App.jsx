@@ -1,4 +1,6 @@
-import Auth from './pages/Auth'
+
+import Auth from './pages/auth'
+import AuthPage from './pages/TestAuth'
 
 function App() {
   return (
