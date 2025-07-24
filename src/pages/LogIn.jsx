@@ -7,7 +7,7 @@ import Eye_icon from "../assets/Eye_icon";
 import leads_alpha_logo from "../assets/leads-alpha-logo.png";
 import { handleRedirectCallback, loginWithSocial, logout } from "../services/auth0";
 
-export default function Auth() {
+export default function LogIn() {
 
   const [user, setUser] = useState(null);
 
